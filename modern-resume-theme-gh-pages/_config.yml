@@ -1,83 +1,88 @@
-# Main Configuration
-name: Muhammad Daniyal Khan
-email: 26100266@lums.edu.pk
-description: >
-  BS Computer Science student at LUMS with expertise in Distributed Systems, Cloud Computing, and AI-driven software development.
-footer_content: "Built by Muhammad Daniyal Khan"
+# Site Metadata (This tells GitHub where the theme source is)
+repository: sproogen/modern-resume-theme
+favicon: images/favicon.ico
+version: 2
 
-# Social Media Links
-social:
-  - title: github
-    url: https://github.com/MuhammadDaniyalKhan098 
-  - title: linkedin
-    url: https://www.linkedin.com/in/muhammad-daniyal-khan-702163365/
+# Personal info
+name: "Muhammad Daniyal Khan"
+title: "Aspiring Software Engineer & AI Specialist"
+email: "26100266@lums.edu.pk"
+website: "https://github.com/MuhammadDaniyalKhan098"
 
-# Resume Content
+# Theme Settings
+darkmode: true # Set to true for the developer dark theme
+
+# Social links
+github_username: MuhammadDaniyalKhan098
+linkedin_username: muhammad-daniyal-khan-702163365
+
+# Additional icon links
+additional_links:
+  - title: "+92 314 2052636"
+    icon: fas fa-phone
+    url: "tel:+923142052636"
+
+# About Section
+about_content: |
+  I am a BS Computer Science student at LUMS [cite: 4, 5] with a strong focus on Distributed Systems, Cloud Computing, and AI integration[cite: 7]. I have hands-on experience building complex agentic workflows and automated trading systems[cite: 17, 32].
+
 content:
   - title: Education
     layout: list
     content:
-      - title: Lahore University of Management Sciences (LUMS)
-        sub_title: BS Computer Science
-        caption: Sep 2022 - May 2026
-        quote: CGPA: 3.4
+      - title: "Lahore University of Management Sciences (LUMS)"
+        sub_title: "BS Computer Science"
+        caption: "Sep 2022 - May 2026"
+        quote: "CGPA: 3.4"
         description: |
-          **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms, and Advanced Programming.
+          **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms[cite: 7].
 
   - title: Professional Experience
     layout: list
     content:
-      - title: Lahore University of Management Sciences (LUMS)
-        sub_title: Teaching Assistant - Fundamentals of Computer Systems
-        caption: Sep 2024 - Dec 2024
+      - title: "LUMS"
+        sub_title: "Teaching Assistant - Fundamentals of Computer Systems"
+        caption: "Sep 2024 - Dec 2024"
         description: |
-          * Supported 150+ students in understanding low-level systems concepts, including memory hierarchy and Assembly/C.
-          * Conducted quizzes, graded programming assignments, and held weekly office hours.
+          * Supported 150+ students in understanding low-level systems concepts including memory hierarchy and Assembly/C[cite: 11].
+          * Conducted quizzes, graded programming assignments, and held weekly office hours[cite: 12].
 
   - title: Projects
     layout: list
     content:
-      - title: Legal Insight AI Chatbot
-        sub_title: Final Year Project | MERN, FastAPI, LangGraph, Neo4j, Gemini API
-        caption: Sep 2025 - Present
+      - title: "Legal Insight AI Chatbot"
+        sub_title: "Final Year Project | MERN, FastAPI, LangGraph, Neo4j, Gemini API"
+        caption: "Sep 2025 - Present"
         description: |
-          * Developed a comprehensive legal assistant delivering statutory analysis, procedural guidance, and document drafting via a multi-domain Neo4j Knowledge Graph.
-          * Implemented an Agentic Workflow using LangGraph and Gemini LLM API for intelligent intent routing and query decomposition.
-          * Created a Legal Drafting System that automates court document creation using programmatic template filling.
-          * Integrated Jina AI embeddings for Graph RAG architecture to ground answer generation in the Pakistan Penal Code.
+          * Developed a legal assistant delivering statutory analysis and procedural guidance via a multi-domain Neo4j Knowledge Graph[cite: 16].
+          * Implemented an Agentic Workflow using LangGraph and Gemini LLM for intelligent intent routing[cite: 17].
+          * Automated court document creation through a Legal Drafting System[cite: 18, 19].
 
-      - title: Secure Cloud Infrastructure & Network Architecture
-        sub_title: Microsoft Azure, Azure CLI, Shell Scripting
-        caption: Jan 2026 - Mar 2026
+      - title: "Secure Cloud Infrastructure"
+        sub_title: "Microsoft Azure, Azure CLI, Shell Scripting"
+        caption: "Jan 2026 - Mar 2026"
         description: |
-          * Architected and deployed a secure Hub-Spoke network topology with Site-to-Site VPN tunnels and Virtual Network Gateways.
-          * Implemented strict network segmentation using Network Security Groups (NSGs) and Service Endpoints to isolate public services from private data.
+          * Architected a secure Hub-Spoke network topology with Site-to-Site VPN tunnels[cite: 25].
+          * Implemented strict network segmentation using Network Security Groups (NSGs) to isolate services[cite: 26].
 
-      - title: Distributed Consensus System (Raft Implementation)
-        sub_title: Go, RPC
-        caption: Sep 2024 - Dec 2024
+      - title: "Distributed Consensus System (Raft)"
+        sub_title: "Go, RPC"
+        caption: "Sep 2024 - Dec 2024"
         description: |
-          * Designed a distributed key-value store in Go implementing the Raft consensus algorithm from scratch.
-          * Built leader election, log replication, and conflict resolution mechanisms for fault tolerance.
-
-      - title: Automated Crypto Trading Bot
-        sub_title: Python, Bybit API, Groq LLM, Render
-        caption: Dec 2024 - Jan 2025
-        description: |
-          * Developed an automated bot that parses JSON signals and executes trades via the Bybit API.
-          * Integrated Groq's LLM API to extract structured trade parameters from unstructured Telegram messages.
-          * Deployed on Render with keep-alive mechanisms for 24/7 signal monitoring.
+          * Designed a distributed key-value store implementing the Raft consensus algorithm from scratch[cite: 30].
+          * Built leader election and log replication mechanisms to ensure fault tolerance[cite: 31].
 
   - title: Technical Skills
     layout: text
     content: |
-      **Languages:** Python, C++, JavaScript/TypeScript, SQL, Go (Golang), Haskell, HTML/CSS.
-      
-      **Backend & Cloud:** FastAPI, Node.js, Docker, Render, REST APIs, WebSockets.
-      
-      **Databases:** MongoDB (NoSQL), Neo4j (Graph DB).
-      
-      **System Concepts:** Distributed Consensus (Raft), Microservices Architecture, Multithreading, MLOps.
+      **Languages:** Python, C++, JavaScript/TypeScript, SQL, Go (Golang), Haskell[cite: 45].
+      **Backend & Cloud:** FastAPI, Node.js, Docker, Render, REST APIs, WebSockets[cite: 46].
+      **Databases:** MongoDB, Neo4j[cite: 47].
+      **Concepts:** Distributed Consensus, Microservices, Multithreading, MLOps[cite: 48].
 
-# Theme Settings
-darkmode: true
+# --- THE FIX: BUILD SETTINGS ---
+# These must be at the very bottom and NOT commented out
+remote_theme: sproogen/modern-resume-theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
