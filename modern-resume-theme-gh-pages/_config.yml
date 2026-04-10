@@ -1,88 +1,81 @@
-# Site Metadata (This tells GitHub where the theme source is)
-repository: sproogen/modern-resume-theme
+# Site
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
+
+# Content configuration version
 version: 2
 
 # Personal info
-name: "Muhammad Daniyal Khan"
-title: "Aspiring Software Engineer & AI Specialist"
-email: "26100266@lums.edu.pk"
-website: "https://github.com/MuhammadDaniyalKhan098"
+name: "CHAUDHARY TAHA AHMED"
+title: "Aspiring ML Engineer and Full Stack Developer"
+email: "taha04473@gmail.com"
+website: ""
 
-# Theme Settings
-darkmode: true # Set to true for the developer dark theme
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
-github_username: MuhammadDaniyalKhan098
-linkedin_username: muhammad-daniyal-khan-702163365
+linkedin_username: taha-ahmed2003
 
 # Additional icon links
 additional_links:
-  - title: "+92 314 2052636"
+  - title: "Direct LinkedIn Profile"
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/taha-ahmed2003
+  - title: "Phone: +92 300 8815110"
     icon: fas fa-phone
-    url: "tel:+923142052636"
+    url: tel:+923008815110
 
 # About Section
 about_content: |
-  I am a BS Computer Science student at LUMS [cite: 4, 5] with a strong focus on Distributed Systems, Cloud Computing, and AI integration[cite: 7]. I have hands-on experience building complex agentic workflows and automated trading systems[cite: 17, 32].
+  I am an aspiring ML Engineer and Full Stack Developer with extensive practical experience in Generative AI, NLP, and RAG architectures. I am skilled in deploying complex models using FastAPI and Neo4j, backed by a rigorous academic background. I have a proven ability to lead development teams and deliver end-to-end solutions.
 
 content:
-  - title: Education
-    layout: list
-    content:
-      - title: "Lahore University of Management Sciences (LUMS)"
-        sub_title: "BS Computer Science"
-        caption: "Sep 2022 - May 2026"
-        quote: "CGPA: 3.4"
-        description: |
-          **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms[cite: 7].
-
-  - title: Professional Experience
-    layout: list
-    content:
-      - title: "LUMS"
-        sub_title: "Teaching Assistant - Fundamentals of Computer Systems"
-        caption: "Sep 2024 - Dec 2024"
-        description: |
-          * Supported 150+ students in understanding low-level systems concepts including memory hierarchy and Assembly/C[cite: 11].
-          * Conducted quizzes, graded programming assignments, and held weekly office hours[cite: 12].
-
   - title: Projects
     layout: list
     content:
-      - title: "Legal Insight AI Chatbot"
-        sub_title: "Final Year Project | MERN, FastAPI, LangGraph, Neo4j, Gemini API"
-        caption: "Sep 2025 - Present"
+      - layout: top-middle
+        title: "Pakistani Legal Chatbot (MERN + FastAPI + Neo4j)"
+        link: waqeelailegalchatbot.vercel.app/chat/69304c2347752d8600224cea
+        sub_title: "Lead Developer"
+        caption: "Sept 2025-Present"
+        additional_links:
+          - title: "Walk-through Video"
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=9Yx778WNGjw
         description: |
-          * Developed a legal assistant delivering statutory analysis and procedural guidance via a multi-domain Neo4j Knowledge Graph[cite: 16].
-          * Implemented an Agentic Workflow using LangGraph and Gemini LLM for intelligent intent routing[cite: 17].
-          * Automated court document creation through a Legal Drafting System[cite: 18, 19].
+          An Al-powered legal assistant for Pakistani law that leverages Retrieval-Augmented Generation (RAG) to deliver accurate legal reasoning along with relevant case citations.
+          
+          * Architected a context-aware RAG pipeline using LangGraph and Neo4j, enabling the system to distinguish between general statutes and specific case law databases.
+          * Deployed the custom chatbot as a FastAPI microservice.
+          * Integrated the service into a secure MERN stack platform with role-based access control for Lawyers, Academics, and the Public.
+          * Handled security vulnerabilities using STRIDE framework and tools like SonarQube.
 
-      - title: "Secure Cloud Infrastructure"
-        sub_title: "Microsoft Azure, Azure CLI, Shell Scripting"
-        caption: "Jan 2026 - Mar 2026"
+      - layout: top-middle
+        title: "Marketplace Website (MERN)"
+        link: group-4-nu.vercel.app
+        sub_title: "Project Lead (Team of 5)"
+        caption: "Jan 2025-May 2025"
+        additional_links:
+          - title: "Walk-through Video"
+            icon: fab fa-youtube
+            url: https://youtu.be/zedYnsa0biA
         description: |
-          * Architected a secure Hub-Spoke network topology with Site-to-Site VPN tunnels[cite: 25].
-          * Implemented strict network segmentation using Network Security Groups (NSGs) to isolate services[cite: 26].
+          A peer-to-peer marketplace for LUMS faculty & students to buy/sell campus goods.
+          
+          * End-to-end implementation of product listings, chat, and admin dashboard.
+          * Added Al features: image, product name and category based description generation by AI.
 
-      - title: "Distributed Consensus System (Raft)"
-        sub_title: "Go, RPC"
-        caption: "Sep 2024 - Dec 2024"
+      - layout: top-middle
+        title: "Deep Learning, Machine Learning and NLP Projects"
+        sub_title: "Researcher & Developer"
+        caption: "Jan 2024-Present"
         description: |
-          * Designed a distributed key-value store implementing the Raft consensus algorithm from scratch[cite: 30].
-          * Built leader election and log replication mechanisms to ensure fault tolerance[cite: 31].
+          * Generative Models: Trained and fine-tuned Transformer and Diffusion architectures for NLP tasks (text generation, summarization) and computer-vision tasks (image denoising, inpainting).
+          * Experimental Tuning: Explored various tokenization schemes, attention-head configurations, and sampling strategies to optimize generation quality.
+          * Discriminative Models: Scraped news articles from multiple websites, then built and evaluated classification pipelines (Neural Networks, Naive Bayes) to categorize articles (Entertainment, Sports, etc.), achieving > 95% accuracy.
+          * Developed a retrieval-augmented generation (RAG) chatbot for medical QA, integrating vector retrieval with Large Language Models (LLMs) to ensure domain-specific accuracy.
+          * Implemented foundational NLP pipelines including N-gram models, LSTMs for sequence labeling, and Transformer-based architectures for sentiment analysis and machine translation.
 
-  - title: Technical Skills
-    layout: text
-    content: |
-      **Languages:** Python, C++, JavaScript/TypeScript, SQL, Go (Golang), Haskell[cite: 45].
-      **Backend & Cloud:** FastAPI, Node.js, Docker, Render, REST APIs, WebSockets[cite: 46].
-      **Databases:** MongoDB, Neo4j[cite: 47].
-      **Concepts:** Distributed Consensus, Microservices, Multithreading, MLOps[cite: 48].
-
-# --- THE FIX: BUILD SETTINGS ---
-# These must be at the very bottom and NOT commented out
-remote_theme: sproogen/modern-resume-theme
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+      - layout: top-middle
+        title: "Introduction to Blockchain
