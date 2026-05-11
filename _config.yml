@@ -4,7 +4,7 @@ version: 2
 
 # Personal Info
 name: "Muhammad Daniyal Khan"
-title: "Aspiring Software Engineer & AI Specialist"
+title: "Full Stack AI Engineer | MERN, RAG, Kubernetes"
 email: "26100266@lums.edu.pk"
 
 # Social Media Links
@@ -19,7 +19,7 @@ additional_links:
 
 # About Section
 about_content: |
-  I am a BS Computer Science student at LUMS with expertise in Distributed Systems, Cloud Computing, and AI-driven software development. I have experience building agentic workflows, distributed consensus systems, and automated trading bots.
+  I am a Software Engineer focused on building and deploying intelligent, highly scalable systems. Currently completing my Computer Science degree at LUMS, my approach to development goes beyond simply writing code or training models. I focus on engineering robust architectures capable of handling real-world demands, from complex AI workflows to secure cloud infrastructure. I thrive on solving complex problems at any layer of the technology stack, ensuring every component from the core backend logic to the cloud infrastructure is optimized and resilient.
 
 # Resume Content Sections
 content:
@@ -31,58 +31,72 @@ content:
         caption: "Sep 2022 - May 2026"
         quote: "CGPA: 3.4"
         description: |
-          **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms, and Advanced Programming.
+          **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms, Advanced Programming.
 
   - title: Professional Experience
     layout: list
     content:
       - title: "Lahore University of Management Sciences (LUMS)"
-        sub_title: "Teaching Assistant - Fundamentals of Computer Systems"
+        sub_title: "Teaching Assistant - CS225 Fundamentals of Computer Systems"
         caption: "Sep 2024 - Dec 2024"
         description: |
-          * Supported 150+ students in understanding low-level systems concepts, including memory hierarchy and Assembly/C.
+          * Supported 150+ students in understanding low-level systems concepts including memory hierarchy and Assembly/C.
           * Conducted quizzes, graded programming assignments, and held weekly office hours.
 
   - title: Projects
     layout: list
     content:
-      - title: "Legal Insight AI Chatbot"
-        sub_title: "Final Year Project | MERN, FastAPI, LangGraph, Neo4j, Gemini API"
-        caption: "Sep 2025 - Present"
+      - title: "Legal Insight - AI Chatbot for Pakistani Legal System"
+        sub_title: "Final Year Project | MERN, FastAPI, LangGraph, Neo4j, Docker, Kubernetes, Terraform, AWS"
+        caption: "Sep 2025 - May 2026"
         description: |
-          * Developed a comprehensive legal assistant delivering statutory analysis and procedural guidance via a Neo4j Knowledge Graph.
-          * Implemented an Agentic Workflow using LangGraph and Gemini LLM for intelligent intent routing.
-          * Integrated Jina AI embeddings for Graph RAG architecture.
+          * Developed a comprehensive legal assistant that evaluates user facts against a multi-domain Neo4j Knowledge Graph to provide end-to-end statutory analysis, procedural guidance, data-driven outcome prediction, and document drafting.
+          * Implemented an Agentic Workflow using LangGraph and Gemini LLM for query decomposition and intelligent intent routing between casual conversation, specific legal queries, and document drafting.
+          * Created a Legal Drafting System that automates the creation of court documents; users can request specific forms (e.g., "Draft an FIR"), and the system retrieves and fills templates programmatically.
+          * Integrated Jina AI embeddings for high-precision semantic search, utilizing a Graph RAG architecture to traverse Neo4j relationships and ground Gemini's answer generation in specific hierarchical sections of the Pakistan Penal Code.
+          * Designed a Multi-Service Container Architecture using Docker (multi-stage builds) for Frontend (React), Backend (Node.js), and RAG (Python) microservices to optimize image size and deployment speeds.
+          * Orchestrated production deployment on AWS EC2 using Kubernetes (K8s), utilizing StatefulSets for persistent MongoDB storage and Nginx Ingress Controllers for path-based traffic routing.
+          * Built a full CI/CD Pipeline via GitHub Actions with integrated DevSecOps gates (Trivy, Semgrep) to automate builds, vulnerability scanning, and rolling updates with zero downtime.
+          * Managed Infrastructure as Code (IaC) via Terraform, provisioning Security Groups and Elastic IP (EIP) configurations to ensure network stability and restricted instance access.
 
       - title: "Secure Cloud Infrastructure & Network Architecture"
-        sub_title: "Microsoft Azure, Azure CLI, Shell Scripting"
-        caption: "Jan 2026 - Mar 2026"
+        sub_title: "Microsoft Azure, Azure CLI, Shell Scripting, Linux"
+        caption: "Jan 2026 - May 2026"
         description: |
-          * Architected and deployed a secure Hub-Spoke network topology on Azure with Site-to-Site VPN tunnels.
-          * Implemented strict network segmentation using Network Security Groups (NSGs).
+          An enterprise-grade cloud networking environment focused on data protection and robust network isolation. It establishes secure connectivity protocols and strict access controls to separate public-facing services from sensitive data.
+          
+          * Architected and deployed a secure Hub-Spoke network topology on Microsoft Azure, establishing Site-to-Site VPN tunnels and configuring Virtual Network Gateways.
+          * Implemented strict network segmentation and access controls using Network Security Groups (NSGs) and Service Endpoints.
 
-      - title: "Distributed Consensus System (Raft)"
+      - title: "Automated Crypto Trading Bot"
+        sub_title: "Python, Bybit API, Groq LLM"
+        caption: "Dec 2025 - Jan 2026"
+        description: |
+          An intelligent algorithmic trading system that integrates Large Language Models (LLMs) with financial exchange APIs to monitor, parse, and execute complex trades in real-time.
+          
+          * Built a live data pipeline using Telethon to capture unstructured trading signals from Telegram channels.
+          * Integrated Groq's LLM API (Llama-3) with strict system prompts to parse natural language messages, safely extracting structured JSON parameters for entries, Stop Losses (SL), and Take Profits (TP).
+          * Engineered robust execution logic via the Bybit API, implementing hybrid trade strategies that handle main entries, automated hard SLs, and conditional limit orders for partial take-profits.
+          * Deployed as a 24/7 background service on Render, utilizing Flask-based keep-alive mechanisms and automated trade logging to Google Sheets.
+
+      - title: "Distributed Consensus System - Raft Implementation"
         sub_title: "Go, RPC"
         caption: "Sep 2024 - Dec 2024"
         description: |
-          * Designed a distributed key-value store in Go implementing the Raft consensus algorithm from scratch.
-          * Built leader election and log replication mechanisms for fault tolerance.
-
-      - title: "Automated Crypto Trading Bot"
-        sub_title: "Python, Bybit API, Groq LLM, Render"
-        caption: "Dec 2024 - Jan 2025"
-        description: |
-          * Developed an automated bot that executes trades via the Bybit API based on JSON signals.
-          * Integrated Groq's LLM API to extract structured parameters from Telegram messages.
-          * Deployed on Render with keep-alive mechanisms for 24/7 monitoring.
+          A fault-tolerant distributed key-value store built from scratch to ensure high availability, data consistency, and resilience across multiple network nodes.
+          
+          * Designed and developed the backend architecture entirely in Go (Golang) using RPC for inter-node communication.
+          * Implemented the Raft consensus algorithm from the ground up without relying on external consensus libraries.
+          * Engineered robust, concurrent mechanisms for leader election, log replication, and conflict resolution to handle simulated node failures.
 
   - title: Technical Skills
     layout: text
     content: |
-      **Languages:** Python, C++, JavaScript/TypeScript, SQL, Go (Golang), Haskell, HTML/CSS.
-      **Backend & Cloud:** FastAPI, Node.js, Docker, Render, REST APIs, WebSockets.
-      **Databases:** MongoDB (NoSQL), Neo4j (Graph DB).
-      **System Concepts:** Distributed Consensus (Raft), Microservices Architecture, Multithreading, MLOps.
+      **Languages:** Python, C++, JavaScript/TypeScript, SQL, Go (Golang), Haskell, HTML/CSS.<br>
+      **Cloud & DevOps:** Docker, Kubernetes (K8s), Terraform (IaC), GitHub Actions (CI/CD), AWS (EC2, VPC, EIP), Microsoft Azure.<br>
+      **Security & Tools:** Semgrep (SAST), Trivy (SCA/Container Scanning), Git, Linux, OWASP Top 10.<br>
+      **Backend & DB:** Node.js, FastAPI, REST APIs, WebSockets, MongoDB, Neo4j (Graph DB).<br>
+      **System Concepts:** Microservices Architecture, Distributed Systems (Raft), Container Orchestration, Multithreading.
 
 # --- Build Settings ---
 remote_theme: sproogen/modern-resume-theme
