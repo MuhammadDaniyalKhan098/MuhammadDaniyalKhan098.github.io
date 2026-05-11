@@ -59,6 +59,8 @@ content:
           * Built a full CI/CD Pipeline via GitHub Actions with integrated DevSecOps gates (Trivy, Semgrep) to automate builds, vulnerability scanning, and rolling updates with zero downtime.
           * Managed Infrastructure as Code (IaC) via Terraform, provisioning Security Groups and Elastic IP (EIP) configurations to ensure network stability and restricted instance access.
 
+          **[GitHub Code](https://github.com/MuhammadDaniyalKhan098/legal-insight-core.git) | [Walk-through Video](https://www.youtube.com/watch?v=9Yx778WNGjw)**
+          
       - title: "Secure Cloud Infrastructure & Network Architecture"
         sub_title: "Microsoft Azure, Azure CLI, Shell Scripting, Linux"
         caption: "Jan 2026 - May 2026"
@@ -79,6 +81,8 @@ content:
           * Engineered robust execution logic via the Bybit API, implementing hybrid trade strategies that handle main entries, automated hard SLs, and conditional limit orders for partial take-profits.
           * Deployed as a 24/7 background service on Render, utilizing Flask-based keep-alive mechanisms and automated trade logging to Google Sheets.
 
+          **[GitHub Code](https://github.com/MuhammadDaniyalKhan098/Trading-Bot-LLM.git)**
+          
       - title: "Distributed Consensus System - Raft Implementation"
         sub_title: "Go, RPC"
         caption: "Sep 2024 - Dec 2024"
