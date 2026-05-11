@@ -33,16 +33,6 @@ content:
         description: |
           **Core Coursework:** Distributed Systems, Cloud Computing, Software Engineering, Network-Centric Computing, Operating Systems, Network Security, Databases, Data Structures, Algorithms, Advanced Programming.
 
-  - title: Professional Experience
-    layout: list
-    content:
-      - title: "Lahore University of Management Sciences (LUMS)"
-        sub_title: "Teaching Assistant - CS225 Fundamentals of Computer Systems"
-        caption: "Sep 2024 - Dec 2024"
-        description: |
-          * Supported 150+ students in understanding low-level systems concepts including memory hierarchy and Assembly/C.
-          * Conducted quizzes, graded programming assignments, and held weekly office hours.
-
   - title: Projects
     layout: list
     content:
@@ -93,6 +83,16 @@ content:
           * Designed and developed the backend architecture entirely in Go (Golang) using RPC for inter-node communication.
           * Implemented the Raft consensus algorithm from the ground up without relying on external consensus libraries.
           * Engineered robust, concurrent mechanisms for leader election, log replication, and conflict resolution to handle simulated node failures.
+
+  - title: Professional Experience
+    layout: list
+    content:
+      - title: "Lahore University of Management Sciences (LUMS)"
+        sub_title: "Teaching Assistant - CS225 Fundamentals of Computer Systems"
+        caption: "Sep 2024 - Dec 2024"
+        description: |
+          * Supported 150+ students in understanding low-level systems concepts including memory hierarchy and Assembly/C.
+          * Conducted quizzes, graded programming assignments, and held weekly office hours.
 
   - title: Technical Skills
     layout: text
